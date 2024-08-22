@@ -1,0 +1,9 @@
+set name=fmri value=pkg:/glassfish-javahelp@2.0.2,0-0:20091203T055531Z
+set name=info.classification value="Application Servers"
+set name=pkg.description value="JavaHelp software is a full-featured, platform-independent, extensible help system that enables developers and authors to incorporate online help in applets, components, applications, operating systems, and devices.  GlassFish v3 is an application server created using modular, lightweight, extensible architecture built on OSGi.  It is the first implementation of Java EE 6 standard and is a great developer platform, starts fast, is easy to use and has extensions to support dynamic languages like jRuby."
+set name=pkg.summary value="JavaHelp for GlassFish"
+license 81fe453939c025604b2626b7eced4ff86d88566d chash=69222225ccd7551f56f5ece3fd62341345d15c0f license="Sun Microsystems, Inc. Binary Code License Agreement" pkg.csize=4526 pkg.size=11553
+dir group=sys mode=0755 owner=nobody path=glassfish
+dir group=sys mode=0755 owner=nobody path=glassfish/modules
+file e2df7010a5fe652442ac9da9880f6b57e13284d4 chash=86801d48395ef094baad5bb0367992d86debb280 group=sys mode=0644 owner=nobody path=glassfish/modules/javahelp.jar pkg.csize=537345 pkg.size=588596
+set name=publisher value=stable.glassfish.org

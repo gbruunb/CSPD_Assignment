@@ -1,0 +1,22 @@
+set name=fmri value=pkg:/mq-config-gf@4.4.1,0-7.2:20091119T083940Z
+set name=pkg.maintainer_url value=http://mq.dev.java.net/
+set name=info.classification value=":Message-Oriented Middleware"
+set name=pkg.detailed_url value=http://mq.dev.java.net/about.html
+set name=pkg.summary value="Message Queue Configuration for GlassFish"
+set name=pkg.upstream_url value=http://mq.dev.java.net/
+set name=pkg.description value="Configuration files of the Message Queue product specific to GlassFish.  Message Queue (MQ) is an enterprise quality, production ready, scalable messaging server.  It provides a complete Java Message Service (JMS) implementation for message oriented system integration.  In addition, Message Queue provides the additional enterprise features that are necessary for enterprise deployments, large and small."
+set name=info.source_url value=http://mq.dev.java.net/downloads.html
+depend fmri=pkg:/mq-server@4.4.1 type=require
+file 0dc81d21ed96cf033c8524b68f2208a80a6df623 chash=006048a71cad3d3744279d05168118c61923e708 group=sys mode=0444 owner=nobody path=mq/etc/passfile.sample pkg.csize=2085 pkg.size=5578
+dir group=sys mode=0755 owner=nobody path=mq/etc
+dir group=sys mode=0755 owner=nobody path=mq
+license 762f392772a35430e0a5039ed5715b79e354092c chash=f8258c47f5193a9efc247b619a81365cc82d1c42 license=CDDLv1.0 pkg.csize=12541 pkg.size=37934
+license 8c6736bb3bd3d5ea5d02eee1546669888ed01440 chash=e8a31d48be4087f03eff321b0d8ecfdc6d5d6b16 license=copyright pkg.csize=1744 pkg.size=4492
+dir group=sys mode=0755 owner=nobody path=mq/etc/xml
+file c044d0461c4d9a827de433dd9209f421b1968e63 chash=4a965a5483204abbde17baf63aa145e015056d86 group=sys mode=0644 owner=nobody path=mq/etc/xml/com.sun.cmm.mq.xml pkg.csize=2266 pkg.size=6524
+dir group=sys mode=0755 owner=nobody path=mq/etc/xml/template
+file f96566d768c36614ec2796cbf73f74d42f0553a8 chash=0622c8e2555315e1ea94564365c4265014247009 group=sys mode=0444 owner=nobody path=mq/etc/xml/template/com.sun.cmm.mq.xml pkg.csize=2274 pkg.size=6546
+dir group=sys mode=0755 owner=nobody path=mq/etc/registry
+file b2b1aa1e945bf0ce2692859036771251b03a9a24 chash=6fcedbb7cb140e75776d437ab29ab44f9679e998 group=sys mode=0644 owner=nobody path=mq/etc/registry/servicetag.xml pkg.csize=656 pkg.size=1177
+file 5eb8b28a4a9cb6e47ac6a5f6f214bc27054df407 chash=072c1507df484ad28ce647ee01cdf2b0d605e5c7 group=sys mode=0644 owner=nobody path=mq/etc/imqenv.conf pkg.csize=1319 pkg.size=2738 preserve=renamenew
+set name=publisher value=stable.glassfish.org

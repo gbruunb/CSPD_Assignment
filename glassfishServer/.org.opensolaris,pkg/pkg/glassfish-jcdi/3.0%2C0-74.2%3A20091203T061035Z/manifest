@@ -1,0 +1,11 @@
+set name=fmri value=pkg:/glassfish-jcdi@3.0,0-74.2:20091203T061035Z
+set name=info.classification value="Application Servers"
+set name=pkg.description value="Java Contexts and Dependency Injection (JCDI) specifies services for the Java EE platform.  It layers an enhanced lifecycle and interaction model over existing Java component types including Java Beans and Enterprise Java Beans.  JCDI also enables transactional components such as Enterprise Java Beans to participate in the presentation tier of web frameworks. GlassFish v3 is an application server created using modular, lightweight, extensible architecture built on OSGi.  It is the first implementation of Java EE 6 standard and is a great developer platform, starts fast, is easy to use and has extensions to support dynamic languages like jRuby."
+set name=pkg.summary value="GlassFish JCDI"
+depend fmri=pkg:/glassfish-web type=require
+license e0273c357c9684d857326451ceeda7917deff925 chash=05a415a9900bab29da1138c275aa69ffc85731f3 license="CDDL and GPL v2 with classpath exception" pkg.csize=11555 pkg.size=36115
+dir group=sys mode=0755 owner=nobody path=glassfish
+dir group=sys mode=0755 owner=nobody path=glassfish/modules
+file 1cc13e86e86dde7f1d528465543bc6931f6091de chash=fc5bf2ad32218ec9627f9bdbe8d553cb6d25ac75 group=sys mode=0644 owner=nobody path=glassfish/modules/weld-integration.jar pkg.csize=55823 pkg.size=61871
+file 279b7d4a30018bbe28fc302ab7e01551a65d28bb chash=db51b6ed119a9a730a335d4a85442daa78cd7ef5 group=sys mode=0644 owner=nobody path=glassfish/modules/weld-osgi-bundle.jar pkg.csize=1761208 pkg.size=1962033
+set name=publisher value=stable.glassfish.org

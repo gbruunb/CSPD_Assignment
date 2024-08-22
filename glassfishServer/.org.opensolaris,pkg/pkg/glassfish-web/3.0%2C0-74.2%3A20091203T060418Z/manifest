@@ -1,0 +1,32 @@
+set name=fmri value=pkg:/glassfish-web@3.0,0-74.2:20091203T060418Z
+set name=info.classification value="Application Servers"
+set name=pkg.description value="GlassFish web container runtime module enables support for Java EE web application technologies. For more information on Java EE web application technologies, please refer to http://java.sun.com/javaee/technologies/webapps/. GlassFish v3 is an application server created using modular, lightweight, extensible architecture built on OSGi.  It is the first implementation of Java EE 6 standard and is a great developer platform, starts fast, is easy to use and has extensions to support dynamic languages like jRuby."
+set name=pkg.summary value="GlassFish Web Container"
+depend fmri=pkg:/glassfish-common type=require
+license e0273c357c9684d857326451ceeda7917deff925 chash=05a415a9900bab29da1138c275aa69ffc85731f3 license="CDDL and GPL v2 with classpath exception" pkg.csize=11555 pkg.size=36115
+dir group=sys mode=0755 owner=nobody path=glassfish
+dir group=sys mode=0755 owner=nobody path=glassfish/modules
+file eabfcecbc61c4409bab0a56d9446be6361a6c8af chash=69596148ad2a348244f532f8a440f6fbd6e09dcf group=sys mode=0644 owner=nobody path=glassfish/modules/console-web-plugin-help.jar pkg.csize=77692 pkg.size=85327
+file e4c9ba12d5558094b15ed3bd8480be242c3eb105 chash=6082820ebe6ed9dd5255235fb466b5332529ba8a group=sys mode=0644 owner=nobody path=glassfish/modules/console-web-plugin.jar pkg.csize=110603 pkg.size=118082
+file 6f76a152b3b7a37045cf45913d966d878ad2c400 chash=763a0a99947d554c5279a8e1c0ee8e4cb1634865 group=sys mode=0644 owner=nobody path=glassfish/modules/websecurity.jar pkg.csize=32637 pkg.size=35229
+file aa9938278f3bc54c07746407506be107db43086b chash=98557d4d530a2844352c4c600436da7f826ededb group=sys mode=0644 owner=nobody path=glassfish/modules/el-impl.jar pkg.csize=99886 pkg.size=108306
+file 864ac57dbbbf9889f0daaa9464447ce13c8fa570 chash=209df47515643b8b0886313a2bcb9dcf76ba1839 group=sys mode=0644 owner=nobody path=glassfish/modules/gf-web-connector.jar pkg.csize=4628 pkg.size=5945
+file 81c85ef96ebe8f55cd926bc42b3a86d7801fe48b chash=b19050d765c6308a96ba97ce230ea2bda85ca93c group=sys mode=0644 owner=nobody path=glassfish/modules/jsf-connector.jar pkg.csize=10487 pkg.size=12522
+file d73511cb381dffba061d89e42aee33d7173da0f5 chash=621d93d03f4be842ef7bd50698aec1c8e4d8e705 group=sys mode=0644 owner=nobody path=glassfish/modules/jsp-impl.jar pkg.csize=490977 pkg.size=521854
+file 4356704660207acc7926678ebc17fd3f1405a8d7 chash=1e876456ffa1fecd6ed2fe174279dff13ee390fa group=sys mode=0644 owner=nobody path=glassfish/modules/jspcaching-connector.jar pkg.csize=6385 pkg.size=7765
+file 38bc3f257cd936686322651376b15e61923b7330 chash=7624cf6518d02c70958305cdee826b84f3d0dbec group=sys mode=0644 owner=nobody path=glassfish/modules/jstl-connector.jar pkg.csize=5215 pkg.size=6541
+file 23a1a3a59335c3daeb49593b5a343f552dbfd825 chash=e55e69f81b30975fb5c1dfae7e12fbb6cfe333c2 group=sys mode=0644 owner=nobody path=glassfish/modules/jstl-impl.jar pkg.csize=345537 pkg.size=388523
+file 1dade5153a496eeb9d429c1ff25a16e6aea2ee00 chash=419b90aa18a7e9d5578f3924476eb15ccab1d78f group=sys mode=0644 owner=nobody path=glassfish/modules/war-util.jar pkg.csize=54376 pkg.size=58388
+file e8fe253b616ef9bb4cec52af6d42d18262c56db3 chash=ae71addd7ca0d2deaaf8eafa579aee6ecabb05d7 group=sys mode=0644 owner=nobody path=glassfish/modules/web-ajp.jar pkg.csize=118648 pkg.size=124780
+file 41bf2ffd303eef2482397e6f77e8f9822c0d7111 chash=884c0061830a311f7ef68ddec62f9f226b9d0104 group=sys mode=0644 owner=nobody path=glassfish/modules/web-cli.jar pkg.csize=113522 pkg.size=125156
+file d2c80d573e7f85b1a477ac9ad440b806b8ea4c82 chash=4af24f4b24ff7d39298a6ef9e583b03b3f7dd067 group=sys mode=0644 owner=nobody path=glassfish/modules/web-core.jar pkg.csize=1077751 pkg.size=1142476
+file 02d9038caec08ea100b1522ff62f0776fd4ed680 chash=cf2c3f27fa6e93b2dcf55018080432305a5d844e group=sys mode=0644 owner=nobody path=glassfish/modules/web-embed-api.jar pkg.csize=23488 pkg.size=28279
+file d287d4e4ae5870be864d7119da6d8f1873fc4b4a chash=8d27cce4b420148fb9e454b6ed081dd71760c982 group=sys mode=0644 owner=nobody path=glassfish/modules/web-embed-impl.jar pkg.csize=17459 pkg.size=19895
+file 45f5fbb0f71efae1b336ca9030e49f1e8909fc10 chash=6a6c9ef4afaf38f53f6c8253418b3fbeb9084c85 group=sys mode=0644 owner=nobody path=glassfish/modules/web-glue.jar pkg.csize=280268 pkg.size=301665
+file 5591f24f42745b63b44dfdd18927ffd4c7a47f0a chash=0300c22e139533e34f8e0b3f4df4da8c8b0dccbb group=sys mode=0644 owner=nobody path=glassfish/modules/web-gui-plugin-common.jar pkg.csize=41626 pkg.size=47747
+file 28e3e2a4790e2091c7c87811e391ba7065322396 chash=611a1ac465891a8b77d9cffcf7bae4cbbe962518 group=sys mode=0644 owner=nobody path=glassfish/modules/web-naming.jar pkg.csize=82702 pkg.size=90332
+file e91b42edf4d3ef1c41ef2a6e49ee391010cb5942 chash=ca81e6bc116b137f1de00815b2beef0eb906377d group=sys mode=0644 owner=nobody path=glassfish/modules/javax.servlet.jsp.jstl.jar pkg.csize=39729 pkg.size=44649
+file 1358a93d9286659f4134844d49345ddce570021d chash=f8e2d04e967e657623215642265cacc842a3fbf0 group=sys mode=0644 owner=nobody path=glassfish/modules/javax.servlet.jsp.jar pkg.csize=84927 pkg.size=97003
+dir group=sys mode=0755 owner=nobody path=glassfish/modules/autostart
+file 49b47aa12c4265aea630d6b216c092ad5f8614de chash=42466463d930d156c4d44e5af0f177a31b9508d0 group=sys mode=0644 owner=nobody path=glassfish/modules/autostart/osgi-web-container.jar pkg.csize=49931 pkg.size=54784
+set name=publisher value=stable.glassfish.org

@@ -1,0 +1,4 @@
+dir path=glassfish/modules/endorsed 
+dir path=glassfish 
+dir path=glassfish/modules 
+dir path=glassfish/bin 

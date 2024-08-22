@@ -1,0 +1,31 @@
+set name=fmri value=pkg:/metro@2.0,0-29:20091203T061614Z
+set name=info.classification value="Web Services"
+set name=pkg.description value="Metro is a high-performance, extensible, easy-to-use web service stack. It is a one-stop shop for all your web service needs, from the simplest hello world web service to reliable, secured, and transacted web service that involves .NET services."
+set name=pkg.summary value="Metro Web Services Stack"
+depend fmri=pkg:/glassfish-common type=require
+license e0273c357c9684d857326451ceeda7917deff925 chash=05a415a9900bab29da1138c275aa69ffc85731f3 license="CDDL and GPL v2 with classpath exception" pkg.csize=11555 pkg.size=36115
+dir group=sys mode=0755 owner=nobody path=glassfish
+dir group=sys mode=0755 owner=nobody path=glassfish/modules
+dir group=sys mode=0755 owner=nobody path=glassfish/bin
+file 15b4cd1cd74c57c1ba39504793b6edcb27737ec5 chash=d80abad4be4fd9cf0a4a83db77d9c23a198b64de group=sys mode=0644 owner=nobody path=glassfish/modules/woodstox-osgi.jar pkg.csize=493530 pkg.size=525648
+file ca0be18e40a0457955814494a6ec89ec1852c25a chash=7af9a9aea36c3de5ec22eebc221802c8123bb363 group=sys mode=0644 owner=nobody path=glassfish/modules/webservices-osgi.jar pkg.csize=9506334 pkg.size=10456781
+file f53660902cc892e7183915e6fb18b1752f97afe2 chash=fa5121f2fa18597f31366fb02153fc5d76ae14a9 group=sys mode=0644 owner=nobody path=glassfish/modules/webservices.security.jar pkg.csize=67212 pkg.size=73477
+file a60e95eb967fa11320407e802f87e31b49f3532b chash=04f8a0d35b26f24ef0c315019120971b017235c5 group=sys mode=0644 owner=nobody path=glassfish/modules/jsr109-impl.jar pkg.csize=223600 pkg.size=239729
+file 547be1766ae8c5f75a95f814165b47b1f6e55cda chash=2490d5ab845516516dce2b491c2e01c6468b2a2c group=sys mode=0644 owner=nobody path=glassfish/modules/soap-tcp.jar pkg.csize=26998 pkg.size=31146
+file aa29f3578f72af867f043d3a31c2a0d5dd09bd7a chash=7bd294c62ddfaa94e589c4674dac1de29723a916 group=sys mode=0644 owner=nobody path=glassfish/modules/webservices-connector.jar pkg.csize=4145 pkg.size=5624
+file e368c6f2f0ecab10dfb31053afc02a91357e26a6 chash=9c863a871195a5469a14c0335aa32ce6d2cbad85 group=sys mode=0644 owner=nobody path=glassfish/modules/mimepull.jar pkg.csize=34347 pkg.size=38732
+dir group=sys mode=0755 owner=nobody path=glassfish/modules/endorsed
+file 10489f8c7ea64c545ce72b590becfc280bbdf7a3 chash=5e35587200f1c740aa01ff91e14296fb8c9664d9 group=sys mode=0644 owner=nobody path=glassfish/modules/endorsed/webservices-api-osgi.jar pkg.csize=41547 pkg.size=51029
+file 5434859ee286eda38f39d8ee3fc065a534d689fe chash=cdbb53520c1a8a138ca90cde5a25dc0743ce39fa group=sys mode=0755 owner=nobody path=glassfish/bin/xjc pkg.csize=243 pkg.size=337
+file 129cefc15e9ef028dd3e20340691568fdb03dba6 chash=b970a83e2019af8adccf4f606aa35b4afceca8a9 group=sys mode=0755 owner=nobody path=glassfish/bin/wsgen pkg.csize=243 pkg.size=335
+file 7a11fd590a00fa73c85d8d3fef6580cf2dd9c938 chash=7ab854be688e7f07e7d847dcae52c09e1bbaf204 group=sys mode=0755 owner=nobody path=glassfish/bin/wscompile pkg.csize=289 pkg.size=430
+file b8c1a93d10231ae154b01f6c76a8b219d30f60fe chash=c08d258d4ee9453437373b3b129d8fc8d6eaa8a8 group=sys mode=0755 owner=nobody path=glassfish/bin/schemagen.bat pkg.csize=234 pkg.size=303
+file 46cce8f55b96568bf60962ee7e3b98595dd4615e chash=486af1683ca855ce7468613d78ee17024e3e5d99 group=sys mode=0755 owner=nobody path=glassfish/bin/wsimport pkg.csize=245 pkg.size=339
+file 3fea7fe4351a8d15f6b5915184d51c2fc759ad65 chash=09aac59d34323964d10b9644c27fdcef87070d22 group=sys mode=0755 owner=nobody path=glassfish/bin/wsdeploy pkg.csize=289 pkg.size=429
+file 1502ff3ac7687fea614b99e0ccc62bb0fe645554 chash=5e67df270923118bbc53c762dc12e42dc35a29dd group=sys mode=0755 owner=nobody path=glassfish/bin/wscompile.bat pkg.csize=253 pkg.size=351
+file 3db8fa973fa4ff2c91cf1cc5bbe957f51d29b697 chash=dc910f9fef0ce7d06df681a2e3d660782ad5fbf0 group=sys mode=0755 owner=nobody path=glassfish/bin/wsgen.bat pkg.csize=224 pkg.size=286
+file 1656396baa7f07e286ef910f5703e52b3e5decf3 chash=47cebe8c9d60cf267ddd19ed5c710171774087f3 group=sys mode=0755 owner=nobody path=glassfish/bin/wsimport.bat pkg.csize=225 pkg.size=289
+file 9f73886881b8a72707e84e36e6305f44a92d9955 chash=323a571e87cc3d9617c588ef3ef91f511c3f1675 group=sys mode=0755 owner=nobody path=glassfish/bin/xjc.bat pkg.csize=225 pkg.size=288
+file 5fbf4fac786c25a3162a71e51b4b3baf3fd5d07f chash=6a8a06d7233d98d81ea2d2345d037242da5222d2 group=sys mode=0755 owner=nobody path=glassfish/bin/schemagen pkg.csize=254 pkg.size=353
+file 2066f27bec1e684f8680d53a61838e2d056d67d7 chash=02fac06c4e1e186e8781e245dd000c7c2bb812a0 group=sys mode=0755 owner=nobody path=glassfish/bin/wsdeploy.bat pkg.csize=253 pkg.size=350
+set name=publisher value=stable.glassfish.org

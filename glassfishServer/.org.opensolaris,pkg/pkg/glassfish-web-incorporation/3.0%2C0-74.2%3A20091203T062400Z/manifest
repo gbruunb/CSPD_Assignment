@@ -1,0 +1,33 @@
+set name=fmri value=pkg:/glassfish-web-incorporation@3.0,0-74.2:20091203T062400Z
+set name=info.classification value="Application Servers"
+set name=pkg.description value="GlassFish Web Profile Incorporation Package.  GlassFish v3 is an application server created using modular, lightweight, extensible architecture built on OSGi.  It is the first implementation of Java EE 6 standard and is a great developer platform, starts fast, is easy to use and has extensions to support dynamic languages like jRuby."
+set name=pkg.summary value="GlassFish Web Profile Incorporation"
+depend fmri=pkg:/glassfish-jdbc@3.0,0-74.2 type=incorporate
+depend fmri=pkg:/glassfish-gui@3.0,0-74.2 type=incorporate
+depend fmri=pkg:/glassfish-grizzly-full@1.9.18,0-9 type=incorporate
+depend fmri=pkg:/glassfish-common@3.0,0-74.2 type=incorporate
+depend fmri=pkg:/glassfish-web@3.0,0-74.2 type=incorporate
+depend fmri=pkg:/felix@2.0.2,0-0 type=incorporate
+depend fmri=pkg:/glassfish-nucleus@3.0,0-74.2 type=incorporate
+depend fmri=pkg:/glassfish-upgrade@3.0,0-74.2 type=incorporate
+depend fmri=pkg:/glassfish-corba-base@3.0.0,0-41 type=incorporate
+depend fmri=pkg:/glassfish-javahelp@2.0.2,0-0 type=incorporate
+depend fmri=pkg:/glassfish-jta@3.0,0-74.2 type=incorporate
+depend fmri=pkg:/glassfish-registration@3.0,0-74.2 type=incorporate
+depend fmri=pkg:/jersey@1.1 type=incorporate
+depend fmri=pkg:/glassfish-jts@3.0,0-74.2 type=incorporate
+depend fmri=pkg:/javadb-common@10 type=incorporate
+depend fmri=pkg:/glassfish-grizzly@1.9.18,0-9 type=incorporate
+depend fmri=pkg:/glassfish-ejb-lite@3.0,0-74.2 type=incorporate
+depend fmri=pkg:/glassfish-jca@3.0,0-74.2 type=incorporate
+depend fmri=pkg:/pkg-java@1 type=incorporate
+depend fmri=pkg:/javadb-client@10 type=incorporate
+depend fmri=pkg:/glassfish-management@3.0,0-74.2 type=incorporate
+depend fmri=pkg:/glassfish-scripting@3.0,0-74.2 type=incorporate
+depend fmri=pkg:/glassfish-hk2@3.0,0-74.2 type=incorporate
+depend fmri=pkg:/javadb-core@10 type=incorporate
+depend fmri=pkg:/glassfish-jpa@3.0,0-74.2 type=incorporate
+depend fmri=pkg:/glassfish-jsf@2.0.2,0-10 type=incorporate
+depend fmri=pkg:/glassfish-jcdi@3.0,0-74.2 type=incorporate
+license e0273c357c9684d857326451ceeda7917deff925 chash=05a415a9900bab29da1138c275aa69ffc85731f3 license="CDDL and GPL v2 with classpath exception" pkg.csize=11555 pkg.size=36115
+set name=publisher value=stable.glassfish.org

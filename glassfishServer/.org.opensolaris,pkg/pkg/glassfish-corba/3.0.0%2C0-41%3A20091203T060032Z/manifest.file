@@ -1,0 +1,5 @@
+file 62f411005e53ea152d90620ad04430cdefa8aa4a chash=2e905d6e131ababfdc22259067d04112158a8303 group=sys mode=0644 owner=nobody path=glassfish/modules/glassfish-corba-asm.jar pkg.csize=308820 pkg.size=336796
+file bafb9381a31a74f83d9158534a2c1e7f78a49253 chash=f5ecc08bc35df45f45c99b2136c7597e4362808d group=sys mode=0644 owner=nobody path=glassfish/modules/glassfish-corba-codegen.jar pkg.csize=284149 pkg.size=325912
+file dc38de0b5cf0c5385003c849f0ae580f93bdda12 chash=a65508b4f3a9dd376e4016fd5bd41ac9e75c63a1 group=sys mode=0644 owner=nobody path=glassfish/modules/glassfish-corba-csiv2-idl.jar pkg.csize=92940 pkg.size=112197
+file c741588cd371d3941a965244368c88d111b4206c chash=731bd39c67ba990c793be3d639e5dc886744c864 group=sys mode=0644 owner=nobody path=glassfish/modules/glassfish-corba-newtimer.jar pkg.csize=43717 pkg.size=50201
+file ac56c3b9a33ba154f966169ae1471782c5d56832 chash=37ab4ebd87f5b9d4ae3273b9df682fc4fed72c73 group=sys mode=0644 owner=nobody path=glassfish/modules/glassfish-corba-orb.jar pkg.csize=1699788 pkg.size=1870221

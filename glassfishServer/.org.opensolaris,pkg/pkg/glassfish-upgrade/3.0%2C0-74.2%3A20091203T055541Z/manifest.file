@@ -1,0 +1,3 @@
+file 253808c727c11a388cd2c0332802a6b8545b8f67 chash=2bbee22f48f0c2cf16ce7e95b14c629f709f6a08 group=sys mode=0644 owner=nobody path=glassfish/modules/upgrade-tool.jar pkg.csize=96907 pkg.size=112550
+file 1323fcfdf34494a9aa63f9f9f49f3d87fc912a4c chash=0353db76edda682cf04b3f1cbed7cb9ab7c34c9e group=sys mode=0755 owner=nobody path=glassfish/bin/asupgrade.bat pkg.csize=336 pkg.size=520
+file 3e71e27d07e0384dd4f453dee448b53f621141e2 chash=16e35547d36c1959c8b11f9490712b0d3a20fea7 group=sys mode=0755 owner=nobody path=glassfish/bin/asupgrade pkg.csize=393 pkg.size=651

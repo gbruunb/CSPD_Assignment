@@ -1,0 +1,112 @@
+[property]
+send-uuid = True
+description = GlassFish v3 is the first Java EE 6 compatible application server, has a modular, lightweight, extensible architecture built on OSGi, and improves developer productivity by retaining HTTP session state on application redeployment.
+title = GlassFish v3
+image-tou-url = https://glassfish-repo.dev.java.net/terms.html
+require-optional = False
+flush-content-cache-on-success = False
+display-copyrights = True
+preferred-authority = stable.glassfish.org
+pursue-latest = True
+
+[variant]
+variant.opensolaris.zone = global
+variant.arch = sparc
+
+[authority_stable.glassfish.org]
+origin = http://pkg.glassfish.org/v3/stable/
+ssl_key = None
+ssl_cert = None
+uuid = 24019f82-dfd5-11de-83d8-0003ba2efce4
+repo.related_uris = []
+mirrors = []
+repo.description = None
+repo.name = None
+repo.sort_policy = priority
+disabled = False
+alias = None
+prefix = stable.glassfish.org
+repo.legal_uris = []
+repo.registered = False
+repo.registration_uri = None
+repo.collection_type = core
+repo.refresh_seconds = 14400
+
+[authority_contrib.glassfish.org]
+origin = http://pkg.glassfish.org/v3/contrib/
+ssl_key = None
+ssl_cert = None
+uuid = 293cb5a3-dfd5-11de-a885-0003ba2efce4
+repo.related_uris = []
+mirrors = []
+repo.description = None
+repo.name = None
+repo.sort_policy = priority
+disabled = False
+alias = None
+prefix = contrib.glassfish.org
+repo.legal_uris = []
+repo.registered = False
+repo.registration_uri = None
+repo.collection_type = core
+repo.refresh_seconds = 14400
+
+[authority_release.glassfish.sun.com]
+origin = http://pkg.sun.com/glassfish/v3/release/
+ssl_key = None
+ssl_cert = None
+uuid = 2aa50fa3-dfd5-11de-bfdb-0003ba2efce4
+repo.related_uris = []
+mirrors = []
+repo.description = None
+repo.name = None
+repo.sort_policy = priority
+disabled = False
+alias = None
+prefix = release.glassfish.sun.com
+repo.legal_uris = []
+repo.registered = False
+repo.registration_uri = None
+repo.collection_type = core
+repo.refresh_seconds = 14400
+
+[filter]
+
+[authority_dev.glassfish.org]
+origin = http://pkg.glassfish.org/v3/dev/
+ssl_key = None
+ssl_cert = None
+uuid = 27f3b6b5-dfd5-11de-b2ec-0003ba2efce4
+repo.related_uris = []
+mirrors = []
+repo.description = None
+repo.name = None
+repo.sort_policy = priority
+disabled = False
+alias = None
+prefix = dev.glassfish.org
+repo.legal_uris = []
+repo.registered = False
+repo.registration_uri = None
+repo.collection_type = core
+repo.refresh_seconds = 14400
+
+[authority_contrib.glassfish.sun.com]
+origin = http://pkg.sun.com/glassfish/v3/contrib/
+ssl_key = None
+ssl_cert = None
+uuid = 2c178f9c-dfd5-11de-bece-0003ba2efce4
+repo.related_uris = []
+mirrors = []
+repo.description = None
+repo.name = None
+repo.sort_policy = priority
+disabled = False
+alias = None
+prefix = contrib.glassfish.sun.com
+repo.legal_uris = []
+repo.registered = False
+repo.registration_uri = None
+repo.collection_type = core
+repo.refresh_seconds = None
+

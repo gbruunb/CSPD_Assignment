@@ -1,0 +1,3 @@
+set name=info.classification value="Application Servers"
+set name=pkg.description value="GlassFish Web Profile Metapackage.  GlassFish v3 is an application server created using modular, lightweight, extensible architecture built on OSGi.  It is the first implementation of Java EE 6 standard and is a great developer platform, starts fast, is easy to use and has extensions to support dynamic languages like jRuby."
+set name=pkg.summary value="GlassFish Web Profile"

@@ -1,0 +1,19 @@
+set name=fmri value=pkg:/felix@2.0.2,0-0:20091203T054540Z
+set name=info.classification value="OSGi Service Platform Release 4"
+set name=pkg.description value="Apache Felix is a community effort to implement the OSGi R4 Service Platform, which includes the OSGi framework and standard services, as well as providing and supporting other interesting OSGi-related technologies. For more information, see: http://felix.apache.org/site/index.html."
+set name=pkg.summary value="Apache Felix"
+file 79efdc42049418841635d937d9b9dfa294a1a284 chash=59c7798a8fd04de37c709f687e4791956afb6710 group=sys mode=0644 owner=nobody path=glassfish/osgi/felix/conf/config.properties pkg.csize=3459 pkg.size=10055 preserve=renamenew
+file 6400057834e651039a8ad404bbb146f858410e67 chash=e2fdb8d7d6fdb16b222505ce1e8a64f76b3c6a26 group=sys mode=0644 owner=nobody path=glassfish/osgi/felix/conf/system.properties pkg.csize=391 pkg.size=785 preserve=renamenew
+license be86a8dd962083a273ca3800af37cf2cb63d6f8b chash=eb0e8e735c1496a40ea6599e83a5ead93f900343 license=ApacheV2 pkg.csize=3964 pkg.size=11324
+dir group=sys mode=0755 owner=nobody path=glassfish/osgi/felix/bin
+file 2efa31a33595a95f77eb2142011bbdd582fec5ba chash=2ee0328e775ea50f04cb09137146e549279e35e8 group=sys mode=0644 owner=nobody path=glassfish/osgi/felix/bin/felix.jar pkg.csize=356814 pkg.size=388030
+dir group=sys mode=0755 owner=nobody path=glassfish/modules
+file 3eff4327831b4c158d792927d49c04e8baa257ac chash=664d5f2156207ce6f7b90dacf1097ab3ecde6137 group=sys mode=0644 owner=nobody path=glassfish/modules/org.apache.felix.shell.tui.jar pkg.csize=10727 pkg.size=12407
+file 0ed5108393ff91489986c32af61641e2f4daea41 chash=7e9f7ef9fbeb9612a3d51fbd19a7eff8d9accc88 group=sys mode=0644 owner=nobody path=glassfish/modules/org.apache.felix.shell.remote.jar pkg.csize=21471 pkg.size=24466
+file 64c190887b7e91b67ef902b9f251833699739612 chash=6ee3c5bf1d30eb0d008771025e8439767cafa84d group=sys mode=0644 owner=nobody path=glassfish/modules/org.apache.felix.shell.jar pkg.csize=54583 pkg.size=61023
+file 9a2c253cbc4845d33ee5851948f3146f7b3f0384 chash=3de3d1d3448597a4210525cf89f743300398ffbd group=sys mode=0644 owner=nobody path=glassfish/modules/org.apache.felix.fileinstall.jar pkg.csize=39815 pkg.size=44294
+file 8cd9ebce3e639bbec3eb25e622c44125137fc8ad chash=19567a6c4774f1f4148938724817c9942e203e52 group=sys mode=0644 owner=nobody path=glassfish/modules/org.apache.felix.configadmin.jar pkg.csize=74943 pkg.size=82740
+dir group=sys mode=0755 owner=nobody path=glassfish/modules/autostart
+file a8b4d1e8fa0bfd28ebd068160bb7b843983e4699 chash=98ba566012b4b60749746070b43f0ed0467ee8b2 group=sys mode=0644 owner=nobody path=glassfish/modules/autostart/org.apache.felix.scr.jar pkg.csize=98615 pkg.size=108895
+file 146dcca93e5ceae3a398b45600674f2bb08bb467 chash=c2d9a962a4297f96628f453be29030719f715e84 group=sys mode=0644 owner=nobody path=glassfish/modules/autostart/org.apache.felix.fileinstall-autodeploy-bundles.cfg pkg.csize=220 pkg.size=352
+set name=publisher value=stable.glassfish.org

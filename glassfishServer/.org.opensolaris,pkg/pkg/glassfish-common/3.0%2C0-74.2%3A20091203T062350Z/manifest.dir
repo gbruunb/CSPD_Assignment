@@ -1,0 +1,7 @@
+dir group=sys mode=0755 owner=nobody path=glassfish
+dir group=sys mode=0755 owner=nobody path=glassfish/modules
+dir group=sys mode=0755 owner=nobody path=glassfish/lib
+dir group=sys mode=0755 owner=nobody path=glassfish/modules/endorsed
+dir group=sys mode=0755 owner=nobody path=glassfish/lib/schemas
+dir group=sys mode=0755 owner=nobody path=glassfish/lib/dtds
+dir group=sys mode=0755 owner=nobody path=glassfish/lib/embedded

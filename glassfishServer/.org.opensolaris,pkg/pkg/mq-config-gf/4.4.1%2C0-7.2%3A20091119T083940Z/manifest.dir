@@ -1,0 +1,5 @@
+dir group=sys mode=0755 owner=nobody path=mq/etc
+dir group=sys mode=0755 owner=nobody path=mq
+dir group=sys mode=0755 owner=nobody path=mq/etc/xml
+dir group=sys mode=0755 owner=nobody path=mq/etc/xml/template
+dir group=sys mode=0755 owner=nobody path=mq/etc/registry

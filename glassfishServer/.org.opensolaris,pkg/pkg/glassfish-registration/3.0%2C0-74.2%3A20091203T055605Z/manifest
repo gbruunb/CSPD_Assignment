@@ -1,0 +1,14 @@
+set name=fmri value=pkg:/glassfish-registration@3.0,0-74.2:20091203T055605Z
+set name=info.classification value="Application Servers"
+set name=pkg.description value="GlassFish registration module. GlassFish v3 is an application server created using modular, lightweight, extensible architecture built on OSGi.  It is the first implementation of Java EE 6 standard and is a great developer platform, starts fast, is easy to use and has extensions to support dynamic languages like jRuby."
+set name=pkg.summary value="GlassFish Registration"
+depend fmri=pkg:/glassfish-common type=require
+license e0273c357c9684d857326451ceeda7917deff925 chash=05a415a9900bab29da1138c275aa69ffc85731f3 license="CDDL and GPL v2 with classpath exception" pkg.csize=11555 pkg.size=36115
+dir group=sys mode=0755 owner=nobody path=glassfish
+dir group=sys mode=0755 owner=nobody path=glassfish/modules
+file 7736d7cdb56b8b00c44cfd2d9cae9ce93f29e4b7 chash=490207ccdbce672063967105902131978c19b37c group=sys mode=0644 owner=nobody path=glassfish/modules/commons-codec-repackaged.jar pkg.csize=40815 pkg.size=45634
+file 01de53670c011ab0af594a35ef8ca2d4f4e93488 chash=67334415639787e800e057c361245a4dd18d9b28 group=sys mode=0644 owner=nobody path=glassfish/modules/sysnet-registration-repackaged.jar pkg.csize=135750 pkg.size=143000
+file 2c74b2754f3d8749d6e9132ff9c07b1cd5b6d8ef chash=576abe40cebf773bdbde7fffdf06467402013609 group=sys mode=0644 owner=nobody path=glassfish/modules/glassfish-registration.jar pkg.csize=12006 pkg.size=14311
+file 06dd22e189713093d07dd1b21dd351a55cecceeb chash=db794e6449f25b37e7333c34fce4b64cf8972f59 group=sys mode=0644 owner=nobody path=glassfish/modules/registration-api.jar pkg.csize=8872 pkg.size=11819
+file d67aa127a8da432620a167ea1fbce99cbbb42ddc chash=9c859506c2eca9e111029b0a13c26e9e63acf58e group=sys mode=0644 owner=nobody path=glassfish/modules/registration-impl.jar pkg.csize=41319 pkg.size=45293
+set name=publisher value=stable.glassfish.org

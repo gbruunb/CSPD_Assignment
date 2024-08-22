@@ -1,0 +1,13 @@
+set name=fmri value=pkg:/glassfish-grizzly@1.9.18,0-9:20091203T054650Z
+set name=info.classification value="Application Servers"
+set name=pkg.description value="Grizzly is an Java NIO framework for building scalable application. It also offers embeddable components supporting HTTP, Bayeux Protocol, Servlet (Partially) and Comet. For more information, see: https://grizzly.dev.java.net/.  GlassFish v3 is an application server created using modular, lightweight, extensible architecture built on OSGi.  It is the first implementation of Java EE 6 standard and is a great developer platform, starts fast, is easy to use and has extensions to support dynamic languages like jRuby."
+set name=pkg.summary value="Grizzly NIO Framework"
+license e0273c357c9684d857326451ceeda7917deff925 chash=05a415a9900bab29da1138c275aa69ffc85731f3 license="CDDL and GPL v2 with classpath exception" pkg.csize=11555 pkg.size=36115
+dir group=sys mode=0755 owner=nobody path=glassfish
+dir group=sys mode=0755 owner=nobody path=glassfish/modules
+file 6f5e1e4b64f305ebac819338ca95e194e0c6fe33 chash=5f39ed992b45a6c19b24d761b5d9bb82bd94b1f4 group=sys mode=0644 owner=nobody path=glassfish/modules/grizzly-framework.jar pkg.csize=203601 pkg.size=227498
+file c4b94c7a3f2ba095aef577553a59457921484b51 chash=4e9571068fed06712a4a6f2c4836b54e6a34895f group=sys mode=0644 owner=nobody path=glassfish/modules/grizzly-http.jar pkg.csize=141463 pkg.size=152098
+file 38293bbcc54b182b4d3565951447bba429a7108e chash=61649e1ab25a3a6db427ee8765f8311dc51f358d group=sys mode=0644 owner=nobody path=glassfish/modules/grizzly-portunif.jar pkg.csize=15676 pkg.size=18022
+file 815d4a2985222870d10c0efd748c7378eb889e70 chash=08b5eba24af7a8c214140b3eb3dd9c38754beadc group=sys mode=0644 owner=nobody path=glassfish/modules/grizzly-rcm.jar pkg.csize=7800 pkg.size=9015
+file 7b1307caabbe4241c8aa0863da0a50f48e7015b3 chash=b2fe5bd429dfde1e5bfdb92ad1ac82d48d8cb545 group=sys mode=0644 owner=nobody path=glassfish/modules/grizzly-utils.jar pkg.csize=402535 pkg.size=437440
+set name=publisher value=stable.glassfish.org

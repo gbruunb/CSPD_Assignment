@@ -1,0 +1,14 @@
+file bee4ff3293d1da6f279b0578899cf04d08fce63b chash=7333ec5fc6a01db786406e6fad49bfb07223e6a8 group=sys mode=0644 owner=nobody path=glassfish/modules/console-jms-plugin-help.jar pkg.csize=44718 pkg.size=50526
+file 545da313f5ed3435d320e1b2c710a94ef2a760be chash=117cc6ce4f3471d9f886651c965a59e2ea350626 group=sys mode=0644 owner=nobody path=glassfish/modules/console-jms-plugin.jar pkg.csize=69382 pkg.size=74377
+file 3447f8cfaaeb7549a17a0b0dd21e6b5ab813b6d6 chash=34b643f1de346afe3824b2e004d93d198b1e9cfd group=sys mode=0644 owner=nobody path=glassfish/modules/connectors-inbound-runtime.jar pkg.csize=23535 pkg.size=26519
+file 6561f1cd50c95ce1b50e1d6adc187aec878869ee chash=b909b00d1275e6d110eea1c509e4ef2624189b37 group=sys mode=0644 owner=nobody path=glassfish/modules/jms-admin.jar pkg.csize=62643 pkg.size=67590
+file b3d9411a9bd7bc7d5171e0ed9bb4a5aeaa5e022b chash=26afd537ac665c96493be3a30817cef704a6be00 group=sys mode=0644 owner=nobody path=glassfish/modules/jms-core.jar pkg.csize=43835 pkg.size=46808
+file 86afcdb705313080f4433a11d93d611c5e7086c3 chash=0f9028bd9bc1ad9b05a4c0a257d548e6db01c172 group=sys mode=0644 owner=nobody path=glassfish/modules/javax.jms.jar pkg.csize=32337 pkg.size=41324
+file 357ce4ed293bdc8f421874870d04b1d035a0b8db chash=8e78ea3ff40c26a4092b2d5acf77e0f87f9e5449 group=sys mode=0644 owner=nobody path=glassfish/lib/install/applications/jmsra/fscontext.jar pkg.csize=90497 pkg.size=99926
+file 2e12656214cc10c55a5c28e6b0dcc6899367ecaa chash=33e9968d1d46f8f39b143b1f57c349ee091143d8 group=sys mode=0644 owner=nobody path=glassfish/lib/install/applications/jmsra/imqjmsra.jar pkg.csize=1375116 pkg.size=1502527
+file 4657e64f0db964660ae6a5d59f7af0b30714a18f chash=658a2d6cc85d2276261b29c005e8b05261054503 group=sys mode=0644 owner=nobody path=glassfish/lib/install/applications/jmsra/imqbroker.jar pkg.csize=1835928 pkg.size=1980070
+file 0ef13d61c59ca84b4ba2ac2a751d7421698a6a0d chash=07dd6f1daf37f61bf64ed46ee566946ccf2a1abe group=sys mode=0644 owner=nobody path=glassfish/lib/install/applications/jmsra/imqjmx.jar pkg.csize=45998 pkg.size=54811
+file 3ed604850cd06fdc36b78fef8e81c13834b431e9 chash=7a33d673f0be576e983c8e2c157d568b09f0eea7 group=sys mode=0644 owner=nobody path=glassfish/lib/install/applications/jmsra/imqstomp.jar pkg.csize=96918 pkg.size=106664
+file de2d3d0d1ca193e0179b91e6f060065f3324c181 chash=09b288bb0931fdd1bc6bbb1effff28660ebcb67d group=sys mode=0644 owner=nobody path=glassfish/lib/install/applications/jmsra/imqjmsbridge.jar pkg.csize=177935 pkg.size=196244
+file 0452ac5a057dd53238ecd9aa5eaab0442e691f05 chash=5a293031026f0a5855298f87e670dcb99868994d group=sys mode=0644 owner=nobody path=glassfish/lib/install/applications/jmsra/META-INF/MANIFEST.MF pkg.csize=295 pkg.size=534
+file c9902e0277a24066ba695d220f72a716decc7ee4 chash=ca61161575b0f552ad96fd928b2790f370442920 group=sys mode=0644 owner=nobody path=glassfish/lib/install/applications/jmsra/META-INF/ra.xml pkg.csize=1993 pkg.size=12716

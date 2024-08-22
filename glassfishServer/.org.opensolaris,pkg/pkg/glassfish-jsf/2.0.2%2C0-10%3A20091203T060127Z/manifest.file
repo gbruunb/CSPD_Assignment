@@ -1,0 +1,2 @@
+file e27517dc1dc162796de2b451169c097139352434 chash=bce5975d434985cbc9b16b505a59367af9734097 group=sys mode=0644 owner=nobody path=glassfish/modules/jsf-api.jar pkg.csize=529200 pkg.size=584158
+file b2a1d7c7f8c2d9c97b2c571a2f6437feb1bcd4fe chash=65f0f350b89a0ecd26cbf53b478adead08aacfc6 group=sys mode=0644 owner=nobody path=glassfish/modules/jsf-impl.jar pkg.csize=1668859 pkg.size=1793304

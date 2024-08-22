@@ -1,0 +1,6 @@
+file 34c1dfadf481bd3d18ad088bb699e0046bcd62a3 chash=baf4af0820f953513e7640a223a8e029e0ed1047 group=sys mode=0644 owner=nobody path=glassfish/modules/auto-depends.jar pkg.csize=58567 pkg.size=68731
+file 296b1b361f75dc92bb85e098205db6b561bf1d92 chash=d6e23c8058abb04c31b68046b9d85cb2af73f140 group=sys mode=0644 owner=nobody path=glassfish/modules/config.jar pkg.csize=112686 pkg.size=125110
+file 77a0b4507837105e1c773dd23c6cd9c7fc4c0d1e chash=a061f15eca9a84b871cdb055268f4d93f0e5afcf group=sys mode=0644 owner=nobody path=glassfish/modules/hk2-core.jar pkg.csize=91103 pkg.size=101777
+file 0c566f6795935117f260ffbac11a140d29a6fa1c chash=1af81228cd1e188acf1f8c0e565b2e53d6d165ef group=sys mode=0644 owner=nobody path=glassfish/modules/hk2.jar pkg.csize=1727 pkg.size=2352
+file 431de54e37817451bc9d947656e5149ecd09a604 chash=55fa364d104f4b6ed7a453ddd00bf034345551ec group=sys mode=0644 owner=nobody path=glassfish/modules/tiger-types-osgi.jar pkg.csize=17580 pkg.size=20344
+file 01fdc40687b999f5ff5e51cef70d68839c8267ae chash=d8651cae40354bd037cecd4e518eb3596a4bdb75 group=sys mode=0644 owner=nobody path=glassfish/modules/bean-validator.jar pkg.csize=265370 pkg.size=304270

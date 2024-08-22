@@ -1,0 +1,14 @@
+set name=fmri value=pkg:/glassfish-upgrade@3.0,0-74.2:20091203T055541Z
+set name=info.classification value="Application Servers"
+set name=pkg.description value="GlassFish Upgrade Tool (asupgrade) is a utility to migrate the server configuration, its persisted state, Java EE services, and deployed Java EE applications from a previously installed GlassFish application server to the present GlassFish application server. GlassFish v3 is an application server created using modular, lightweight, extensible architecture built on OSGi.  It is the first implementation of Java EE 6 standard and is a great developer platform, starts fast, is easy to use and has extensions to support dynamic languages like jRuby."
+set name=pkg.summary value="GlassFish Upgrade Tool"
+depend fmri=pkg:/glassfish-common type=require
+depend fmri=pkg:/glassfish-javahelp type=require
+license e0273c357c9684d857326451ceeda7917deff925 chash=05a415a9900bab29da1138c275aa69ffc85731f3 license="CDDL and GPL v2 with classpath exception" pkg.csize=11555 pkg.size=36115
+dir group=sys mode=0755 owner=nobody path=glassfish
+dir group=sys mode=0755 owner=nobody path=glassfish/modules
+dir group=sys mode=0755 owner=nobody path=glassfish/bin
+file 253808c727c11a388cd2c0332802a6b8545b8f67 chash=2bbee22f48f0c2cf16ce7e95b14c629f709f6a08 group=sys mode=0644 owner=nobody path=glassfish/modules/upgrade-tool.jar pkg.csize=96907 pkg.size=112550
+file 1323fcfdf34494a9aa63f9f9f49f3d87fc912a4c chash=0353db76edda682cf04b3f1cbed7cb9ab7c34c9e group=sys mode=0755 owner=nobody path=glassfish/bin/asupgrade.bat pkg.csize=336 pkg.size=520
+file 3e71e27d07e0384dd4f453dee448b53f621141e2 chash=16e35547d36c1959c8b11f9490712b0d3a20fea7 group=sys mode=0755 owner=nobody path=glassfish/bin/asupgrade pkg.csize=393 pkg.size=651
+set name=publisher value=stable.glassfish.org

@@ -1,0 +1,19 @@
+set name=fmri value=pkg:/glassfish-full-incorporation@3.0,0-74.2:20091203T062403Z
+set name=info.classification value="Application Servers"
+set name=pkg.description value="GlassFish Full Profile Incorporation Package.  GlassFish v3 is an application server created using modular, lightweight, extensible architecture built on OSGi.  It is the first implementation of Java EE 6 standard and is a great developer platform, starts fast, is easy to use and has extensions to support dynamic languages like jRuby."
+set name=pkg.summary value="GlassFish Full Profile Incorporation"
+depend fmri=pkg:/glassfish-jms@3.0,0-74.2 type=incorporate
+depend fmri=pkg:/glassfish-cmp@3.0,0-74.2 type=incorporate
+depend fmri=pkg:/glassfish-common-full@3.0,0-74.2 type=incorporate
+depend fmri=pkg:/mq-locale@4.4 type=incorporate
+depend fmri=pkg:/mq-bin-sh@4.4 type=incorporate
+depend fmri=pkg:/mq-server@4.4 type=incorporate
+depend fmri=pkg:/glassfish-appclient@3.0,0-74.2 type=incorporate
+depend fmri=pkg:/glassfish-ejb@3.0,0-74.2 type=incorporate
+depend fmri=pkg:/mq-bin-exe@4.4 type=incorporate
+depend fmri=pkg:/glassfish-web-incorporation@3.0,0-74.2 type=require
+depend fmri=pkg:/metro@2.0,0-29 type=incorporate
+depend fmri=pkg:/glassfish-corba@3.0.0,0-41 type=incorporate
+depend fmri=pkg:/mq-config-gf@4.4 type=incorporate
+license e0273c357c9684d857326451ceeda7917deff925 chash=05a415a9900bab29da1138c275aa69ffc85731f3 license="CDDL and GPL v2 with classpath exception" pkg.csize=11555 pkg.size=36115
+set name=publisher value=stable.glassfish.org
